@@ -1,0 +1,129 @@
+/* You can add global styles to this file, and also import other style files */
+ @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+ /* ******************************login*********************************************************** */
+ /* .back{
+     
+    width: 100%;
+    
+    background-image: url(src\assets\img5.jpg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover; 
+  
+    
+
+    
+   } */
+  .btn{
+    width:20%; 
+   
+  }
+
+  mat-form-field{
+    margin-left: 6rem;
+  }
+
+ .button{
+  margin-left: 9rem; 
+  
+
+  } 
+/* *************************dash-board************************************************************** */
+   .mat-drawer
+  { 
+    
+    background-color:rgb(100, 97, 97);
+  } 
+
+  .logo{
+    height: 32%;
+     background-image: url(src\assets\newlogo.jpg); 
+     width: 100%;
+     
+  }
+
+  
+ 
+ /* mat-nav-list.hover
+  {
+    background-color:blue;
+  } */
+  
+   
+mat-sidenav
+ {
+   width: 250px; 
+   color:white;
+   
+   
+ }
+
+.main-content
+{ 
+  padding: 19px;
+  height:60%;
+}
+
+mat-sidenav-container
+{
+  height: 100%;
+
+
+  
+}
+.navbar,.mat-nav-list
+{
+  justify-content: space-between;
+  width: 20%;
+  
+}
+
+.container
+{
+   margin-left: 20%; 
+   
+}
+ .a:hover
+{
+  background-color:rgb(83, 66, 81);
+  
+}
+.e:hover
+{
+  background-color:rgb(179, 133, 133);
+}
+.c:hover
+{
+  background-color:rgb(179, 133, 133);
+}
+.d:hover
+{
+  background-color: rgb(179, 133, 133); 
+}
+.f:hover
+{
+  background-color:rgb(126, 113, 113);
+}
+
+.g:hover
+{
+  background-color: rgb(179, 133, 133);
+}
+
+
+ .col-md-5
+ {
+  margin-left: 130%;
+   
+ }
+ .flex-container
+ {
+   block-size: 50%;
+   
+ }
+ mat-list-item
+ {
+   border: solid black 1px;
+   color: black;
+
+ }

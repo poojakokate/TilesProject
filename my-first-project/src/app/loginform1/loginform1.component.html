@@ -1,0 +1,28 @@
+ <div class="back">
+     <mat-grid-list cols="3" rowHeight="230px">
+        <mat-grid-tile></mat-grid-tile>
+          <mat-grid-tile rowspan="3">
+    
+            <mat-card>
+               <h1 style="text-align: center">Login</h1>
+                <mat-form-field  floatLable="auto"  appearance="outline"> 
+                     <mat-label >UserName</mat-label>
+                     <input matInput  class="btn" required>
+                </mat-form-field>  
+                <br><br><br>
+    
+                <mat-form-field floatLable="auto"  appearance="outline"> 
+                    <mat-label>Password</mat-label>
+                    <input matInput required type="password">
+                </mat-form-field>
+                <br><br><br>
+    
+                <div class="button">
+                    <button mat-raised-button color="primary" routerLink="/dash-board">Login</button>
+                </div>
+               
+      </mat-card>
+  </mat-grid-tile>
+ </mat-grid-list>  
+
+   

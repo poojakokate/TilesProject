@@ -1,0 +1,73 @@
+
+ <mat-sidenav-container fullscreen rowHeight="30px">
+    <mat-sidenav [(opened)]="opened" mode="side" position="start">
+            <div class="logo">
+                
+              
+                </div>
+            
+<div class="part2"  >
+ <mat-nav-list style="width: 100%">
+    
+   <div class="a">
+   <mat-list-item role="listitem" (click)="set(0)">CRUM</mat-list-item>
+   </div>
+   <div class="e">
+   <mat-list-item role="listitem" (click)="set(1)">SOLUTION</mat-list-item>
+   </div>
+   <div class="c">
+   <mat-list-item role="listitem" (click)="set(2)">COLOR</mat-list-item>
+   </div>
+   <div class="d">
+   <mat-list-item role="listitem" (click)="set(3)">MOLDAR</mat-list-item>
+   </div>
+   <div class="f">
+   <mat-list-item role="listitem" (click)="set(4)">PRODUCTION</mat-list-item>
+   </div>
+   <div class="g">
+   <mat-list-item role="listitem" (click)="set(5)">PAYROLL</mat-list-item>
+   </div>
+  
+ 
+
+
+
+
+   
+    <!-- <mat-sidenav position="end">End</mat-sidenav>   -->
+</mat-nav-list> 
+</div>
+   
+</mat-sidenav>
+
+
+<mat-sidenav-content>
+    <mat-toolbar>
+        <button mat-icon-button (click)="opened=!opened"> 
+               
+            <mat-icon>menu</mat-icon></button> 
+    
+            <h1 style="margin-left:35%; font-size:30px;">ADIFLEX TILES </h1> 
+
+            
+        
+         <div class="container"> 
+            <button mat-raised-button class="align-self-end ml-auto" color="warn" style="margin-left: 150%" ><a href="http://localhost:4200/" >Logout</a></button>   
+                         
+           </div>
+            </mat-toolbar>
+       <div class="main-content1" style="margin-left: 50px">
+        <router-outlet></router-outlet>
+       </div>
+
+             
+            
+</mat-sidenav-content>
+
+</mat-sidenav-container> 
+
+
+
+     
+
+      
